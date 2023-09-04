@@ -7,8 +7,10 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "StudyNotion-backend"
+  ],
+  "author": "Abhishek",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
