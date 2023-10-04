@@ -128,7 +128,7 @@ const Instructor = () => {
             <p className="text-center text-2xl font-bold text-richblack-5">
                 You have not created any courses
             </p>
-            <Link to={"/dashboard/addCourse"}>
+            <Link to={"/dashboard/add-course"}>
                 <p className="mt-1 text-center text-lg font-semibold text-yellow-50">
                 Create a course
                 </p>
