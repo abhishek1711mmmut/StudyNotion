@@ -43,13 +43,13 @@ const ReviewSlider = () => {
                     disableOnInteraction:false
                 }}
                 modules={[FreeMode, Pagination, Autoplay]}
-                className='w-full rounded-lg'
+                className='w-full h-full rounded-lg'
             >
 
                 {
                     reviews.map((review, index)=>(
                         <SwiperSlide key={index}>
-                            <div className="flex flex-col gap-3 bg-richblack-800 p-3 text-[14px] text-richblack-25 rounded-lg">
+                            <div className="flex flex-col gap-3 bg-richblack-800 p-3 text-[14px] text-richblack-25 h-full rounded-lg">
                                 <div className='flex items-center gap-4'>
                                     <img src={review?.user?.image
                                         ? review?.user?.image
