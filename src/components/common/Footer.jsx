@@ -186,7 +186,18 @@ const Footer = () => {
                     })}
                 </div>
 
-                <div className="text-center">Made with ❤️ StudyNotion © 2023 Studynotion</div>
+                <div className="text-center">
+                    Made by{" "}
+                    <a
+                        href="https://github.com/abhishek1711mmmut"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="hover:text-richblack-50 transition-all duration-200"
+                    >
+                        Abhishek
+                    </a>{" "}
+                    © 2023 StudyNotion
+                </div>
             </div>
         </div>
 
